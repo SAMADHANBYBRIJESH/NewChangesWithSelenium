@@ -15,7 +15,7 @@ public class AlertExample {
         // other wise it will give ungandledAlertExceptions
        Alert alert = driver.switchTo().alert();
        alert.accept();
-
+System.out.println("New Line Added");
         driver.findElement(By.id("bmwcheck")).click();
         Thread.sleep(3000);
         driver.close();
